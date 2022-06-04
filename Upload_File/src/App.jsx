@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './index.css'
+import UploadPages from './Components/UploadPages'
 
 function App() {
 
   return (
     <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <UploadPages />
     </div>
   )
 }
